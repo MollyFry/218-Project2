@@ -2,7 +2,7 @@
 
 #include "mbed.h"
 #include "arm_book_lib.h"
-//TEST!!
+
 
 //=====[Declaration and initialization of public global objects]===============
 
@@ -45,10 +45,12 @@ int main()
     inputsInit();
     outputsInit();
     while (true){
-        if (ignitionAttempted == false){
-            checkSystemState();
-            handleIgnition();
-        }
+        checkSystemState();
+        handleIgnition();
+        //if (ignitionAttempted == false){
+        //    checkSystemState();
+        //    handleIgnition();
+        //}
     }
 }
 
@@ -59,9 +61,14 @@ int main()
 
 void checkSystemState()
 {
-    while (dSeatSens == OFF){ }
+    //while (dSeatSens == OFF){ }
 
-        uartUsb.write( "Welcome to enhanced alarm system model 218-W24\r\n", 48 );
+    //    uartUsb.write( "Welcome to enhanced alarm system model 218-W24\r\n", 48 );
+
+    if ( dSeatSen ) {
+         uartUsb.write( "Welcome to enhanced alarm system model 218-W24\r\n", 48 );
+    }
+
 
     while (ignitionButton == OFF) {
         if (dSeatSens && pSeatSens && dSeatBelt && pSeatBelt) {
