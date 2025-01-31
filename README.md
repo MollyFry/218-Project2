@@ -1,5 +1,7 @@
 Livy Bottomley & Molly Fry
+
 One paragraph description of the system behavior (what does it do?)
+
 This is a car alarm and automatic headlight control system. When the driver sits down in the car, a welcome message is displayed. When both a driver and a passenger are sitting in the car,
 and both are wearing seat belts, ignition is allowed to begin. When the ignition button is pressed under these conditions, the engine starts. While the engine is running, the user has the 
 option to select the headlight mode from the options ON, OFF, and AUTO. If ON is selected then the headlights turn on, if OFF is selected then the headlights turn off, and if AUTO is selected
