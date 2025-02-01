@@ -32,7 +32,7 @@ Headlight Subsystem
 | While the engine is running, the user selects ON or  | Pass          | These values are selected by the potentiometer.    |
 | OFF to turn the headlights on or off.                |               |                                                    |
 |                                                      |               |                                                    |
-| If the user selects AUTO, the headlights turn on or  |  Pass         | Auto is selected by using the potentiometer.       |
+| If the user selects AUTO, the headlights turn on or  |  Pass         | AUTO is selected by using the potentiometer.       |
 | off depending on the light threshold levels of the   |               |                                                    |
 | surrounding environment the system is in.            |               |                                                    |
 |                                                      |               |                                                    |
