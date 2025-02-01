@@ -1,6 +1,6 @@
 Livy Bottomley & Molly Fry
 
-One paragraph description of the system behavior (what does it do?)
+
 
 This is a car alarm and automatic headlight control system. When the driver sits down in the car, a welcome message is displayed. When both a driver and a passenger are sitting in the car,
 and both are wearing seat belts, ignition is allowed to begin. When the ignition button is pressed under these conditions, the engine starts. While the engine is running, the user has the 
@@ -21,7 +21,7 @@ Ignition Subsystem
 | The engine remains on even if the driver or passenger| Pass          |                                                       |
 | remove their seatbelts or exit the vehicle.          |               |                                                       |
 |                                                      |               |                                                       |
-| While the engine is running, turn it off by pressing |               | Not working just yet                                  |
+| While the engine is running, turn it off by pressing |  Pass         |                                                       |
 | and releasing the ignition button.                   |               |                                                       |
 
 
@@ -32,10 +32,10 @@ Headlight Subsystem
 | While the engine is running, the user selects ON or  | Pass          | These values are selected by the potentiometer.    |
 | OFF to turn the headlights on or off.                |               |                                                    |
 |                                                      |               |                                                    |
-| If the user selects AUTO, the headlights turn on or  |  Pass         |                                                    |
+| If the user selects AUTO, the headlights turn on or  |  Pass         | Auto is selected by using the potentiometer.       |
 | off depending on the light threshold levels of the   |               |                                                    |
 | surrounding environment the system is in.            |               |                                                    |
 |                                                      |               |                                                    |
-| Both headlights turn off when the engine is off.     |               | Not working just yet                               |
+| Both headlights turn off when the engine is off.     | Pass          |                                                    |
 
 
